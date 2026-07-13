@@ -1,20 +1,11 @@
-import java.util.Scanner;
+
 
 void main() {
-    Scanner scanner = new Scanner(System.in);
+    String name="ali";
+    int age=37;
+    double gpa=3.88;
+    boolean is_married=true;
 
-    System.out.print("Enter your name: ");
-    String name = scanner.nextLine();
 
-    System.out.print("Enter your age: ");
-    int age = scanner.nextInt();
-    System.out.print("is he/she married ?");
-    boolean is_married = scanner.nextBoolean();
-
-    System.out.print("Enter your height (in meters): ");
-    int height = scanner.nextInt();
-    System.out.print("Enter your height (in meters): ");
-    double gpa = scanner.nextDouble();
-
-    System.out.println("Hello " + name + ", age " + age + ", height " + height+ "is he/she married?: "+is_married+"your GPA ıs "+gpa);
+    System.out.println("Hello " + name + ", age " + age + " is he/she married:"+ is_married + "your GPA ıs " +gpa);
 }

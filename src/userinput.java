@@ -8,9 +8,13 @@ void main() {
 
     System.out.print("Enter your age: ");
     int age = scanner.nextInt();
+    System.out.print("is he/she married ?");
+    boolean is_married = scanner.nextBoolean();
 
     System.out.print("Enter your height (in meters): ");
-    double height = scanner.nextDouble();
+    int height = scanner.nextInt();
+    System.out.print("Enter your height (in meters): ");
+    double gpa = scanner.nextDouble();
 
-    System.out.println("Hello " + name + ", age " + age + ", height " + height);
+    System.out.println("Hello " + name + ", age " + age + ", height " + height+ "is he/she married?: "+is_married+"your GPA ıs "+gpa);
 }
