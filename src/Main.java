@@ -1,4 +1,13 @@
- class Car {
+void main(){// using it
+    Car myCar = new Car("Tesla",122);
+    myCar.drive();
+    myCar.brand="toyota";
+    myCar.drive();
+
+}
+
+
+class Car {
   private String brand;
     int speed;
   public  Car(String brand,int speed){
@@ -10,6 +19,3 @@
         System.out.println(this.brand + " is driving at " + this.speed + " km/h");
     }
 }
-void main(){// using it
-    Car myCar = new Car("Tesla",122);
-    myCar.drive();}
