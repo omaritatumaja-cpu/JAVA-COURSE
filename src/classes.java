@@ -1,18 +1,26 @@
-void main(){// using it
+public void main(){// using it
     Car myCar = new Car("Tesla",122);
     myCar.drive();
-    myCar.brand="toyota";
+    myCar.setBrand("BMW");
     myCar.drive();
+
 
 }
 
 
-class Car {
+public class Car {
     private String brand;
     int speed;
     public  Car(String brand,int speed){
         this.speed=speed;
         this.brand=brand;
+    }
+    public  String getBrand(){ return brand;
+
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     void drive() {
